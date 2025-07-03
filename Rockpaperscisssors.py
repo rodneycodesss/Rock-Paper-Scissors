@@ -28,7 +28,7 @@ class RockPaperScissors:
         os.system('cls' if os.name == 'nt' else 'clear')
         
     def display_banner(self):
-        """Display the game banner"""
+        """Display the game banner (feature: visual game header)"""
         print("=" * 50)
         print("🎮 ROCK PAPER SCISSORS CHAMPIONSHIP 🎮")
         print("=" * 50)
@@ -48,7 +48,7 @@ class RockPaperScissors:
         print("-" * 50)
         
     def get_player_choice(self) -> str:
-        """Get and validate player choice"""
+        """Get and validate player choice (feature: menu system)"""
         while True:
             print("Choose your weapon:")
             print("1. 🪨 Rock")
