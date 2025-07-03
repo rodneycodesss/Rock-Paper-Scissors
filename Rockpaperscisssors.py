@@ -90,7 +90,7 @@ class RockPaperScissors:
             return 'computer'
             
     def display_choices(self, player_choice: str, computer_choice: str):
-        """Display both choices with animation"""
+        """Display both choices with animation (feature: animated countdown and choice reveal)"""
         print("🎯 BATTLE TIME!")
         print()
         
