@@ -3,6 +3,7 @@ import random
 import os
 import time
 from typing import Tuple, Dict
+import winsound 
 
 class RockPaperScissors:
     def __init__(self):
@@ -115,11 +116,18 @@ class RockPaperScissors:
         if result == 'player':
             print("🎉 YOU WIN THIS ROUND! 🎉")
             self.player_score += 1
+            self.streak_count += 1
+            self.best_streak = max(self.best_streak, self.streak_count)
+            # winsound.Beep(800, 200)  # Victory sound (uncomment to enable)
         elif result == 'computer':
             print("💻 COMPUTER WINS THIS ROUND! 💻")
             self.computer_score += 1
+            self.streak_count = 0  # Reset streak on loss
+            # winsound.Beep(400, 300)  # Loss sound (uncomment to enable)
         else:
             print("🤝 IT'S A TIE! 🤝")
+            self.streak_count = 0  # Reset streak on tie
+            # winsound.Beep(600, 150)  # Tie sound (uncomment to enable)
             
         self.rounds_played += 1
         print()
