@@ -38,14 +38,6 @@ A fun and interactive command-line Rock Paper Scissors game built in Python with
 - Python 3.6 or higher
 - No additional dependencies required (uses only built-in Python libraries)
 
-## 🛠️ Installation
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/rock-paper-scissors.git
-   cd rock-paper-scissors
-   ```
-
 2. Run the game:
    ```bash
    python Rockpaperscisssors.py
@@ -78,21 +70,9 @@ The game features a clean, colorful interface with:
 - Animated countdown before each round
 - Clear result displays with celebratory messages
 
-## 🤝 Contributing
-
-Feel free to contribute to this project by:
-- Reporting bugs
-- Suggesting new features
-- Submitting pull requests
-
-## 📝 License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ## 👨‍💻 Author
 
-Created with ❤️ by [Your Name]
-
----
+Created with ❤️ by Rodney!
 
 **Enjoy playing Rock Paper Scissors Championship! 🎮🏆** 
