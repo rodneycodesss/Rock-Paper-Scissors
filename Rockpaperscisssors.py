@@ -70,7 +70,7 @@ class RockPaperScissors:
             else:
                 print("❌ Invalid choice! Please enter 1, 2, 3, 4, or 5.")
                 time.sleep(1)
-                continue
+                continue  # (feature: error handling and input validation)
                 
     def get_computer_choice(self) -> str:
         """Generate random computer choice"""
