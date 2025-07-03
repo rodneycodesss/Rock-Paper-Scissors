@@ -1,4 +1,3 @@
-
 import random
 import os
 import time
@@ -141,6 +140,7 @@ class RockPaperScissors:
         print(f"Your Wins: {self.player_score}")
         print(f"Computer Wins: {self.computer_score}")
         print(f"Ties: {self.rounds_played - self.player_score - self.computer_score}")
+        print(f"Best Win Streak: {self.best_streak}")
         
         if self.rounds_played > 0:
             win_rate = (self.player_score / self.rounds_played) * 100
