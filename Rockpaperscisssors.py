@@ -19,6 +19,9 @@ class RockPaperScissors:
         self.player_score = 0
         self.computer_score = 0
         self.rounds_played = 0
+        self.difficulty = 'normal'  # easy, normal, hard
+        self.streak_count = 0
+        self.best_streak = 0
         
     def clear_screen(self):
         """Clear the terminal screen"""
