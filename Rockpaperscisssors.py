@@ -35,7 +35,7 @@ class RockPaperScissors:
         print()
         
     def display_rules(self):
-        """Display game rules"""
+        """Display game rules (feature: rules explanation for user)"""
         print("📋 GAME RULES:")
         print("   🪨 Rock crushes Scissors")
         print("   📄 Paper covers Rock")
