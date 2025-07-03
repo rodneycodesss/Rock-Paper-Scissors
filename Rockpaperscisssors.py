@@ -43,7 +43,7 @@ class RockPaperScissors:
         print()
         
     def display_score(self):
-        """Display current score"""
+        """Display current score (feature: real-time score tracking)"""
         print(f"📊 SCORE - You: {self.player_score} | Computer: {self.computer_score} | Rounds: {self.rounds_played}")
         print("-" * 50)
         
